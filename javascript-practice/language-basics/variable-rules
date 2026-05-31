@@ -1,0 +1,38 @@
+// Syntax to store data => Decalaration variable = data;
+
+// Variable is all about the name of the location where we are storing the data.
+
+// Rule to declare a variable while storing the data.
+
+// Storing data in JS
+let empName = "Subham singh"; // Syntax: expected token 'const'
+
+// 1. Variable name must not be a reserved keyword.
+//let const = "Subham Singh"; // SyntaxError: Unexpected token 'const'
+
+// 2. Variable name must not be literals (trues, false, null, undefined).
+//let true = "Subham Singh"; // SyntaxError: Unexpected token 'true'
+
+// 3. Variable name must not start with a number.
+// let 1empName = "Subham Singh"; // SyntaxError: Unexpected token '1'
+
+// 4. Variable name must not contain special characters except $ and _.
+// let emp@Name = "Subham Singh"; // SyntaxError: Unexpected token '@'.
+
+// 5. Variable name must not contain space.
+// let emp Name = "Subham Singh"; // SyntaxError: Unexpected token 'Name'.
+
+// 6. Variable name must be unique always.
+//let empName = "Subham Singh"; // SyntaxError: Identifier 'empName' has already been declared
+
+
+// Standards to be followed while declaring a variable
+
+// 1. Variable name should be meaningful and self-explanatory.
+//let c = 2233; // Not meaningful, not a good variable name.
+let cardNumber = 2233; // Meaningful, good variable name.
+
+// 2. Variable name should follow below naming convention => camelCase, PascalCase, Underscore case
+// Regular variables, methods, or functions are to be declare using camel case. (languageBasicsOfJavaScript)
+// Constant values should be declared with underscore_case with complete upper case characters.(PI_VALUE, COMPANY_NAME)
+//Class name should follow Pascal case (LanguageBasicsOfJavaScript, Student, Employee, etc.)
